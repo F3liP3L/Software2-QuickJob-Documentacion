@@ -14,11 +14,14 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
 - **Diseño Detallado**
     - <details>
         <summary>Vista Funcional</summary>
-        <ol>
-        <li><a href="https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/modelo-dominio.md" target="_blank">Modelo de Dominio</a></li>
-        </ol>
+          <ol start="1">
+          <li><a href="https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/modelo-dominio.md" target="_blank">Modelo de Dominio</a></li>
+          </ol>
       </details>
-    - <details><summary>Vista Logica</summary>
-        2. Diagrama de Clases <br>
-        3. Modelo Entidad Relación
+    - <details>
+        <summary>Vista Logica</summary>
+        <ol start="1">
+        <li><a href="https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/modelo-dominio.md" target="_blank">Diagrama de Clases</a></li><br>
+        <li><a href="" target="_blank" >Modelo Entidad Relación</a></li>
+        </ol>
       </details>
