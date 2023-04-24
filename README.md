@@ -12,8 +12,11 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
 - [Drivers Arquitectonicos]()
 - [Arquitectura de Referencia]
 - **Diseño Detallado**
-    - <details><summary>Vista Funcional</summary>
-        1. [Modelo de Dominio](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/modelo-dominio.md)
+    - <details>
+        <summary>Vista Funcional</summary>
+        <ol>
+        <li><a href="https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/modelo-dominio.md" target="_blank">Modelo de Dominio</a></li>
+        </ol>
       </details>
     - <details><summary>Vista Logica</summary>
         1. Diagrama de Clases <br>
