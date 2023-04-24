@@ -9,7 +9,7 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
 ## Contenido
 
 - [Event Storming]
-- [Drivers Arquitectonicos]()
+- [Drivers Arquitectonicos](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/drivers-arquitectonicos/drivers-arquitectonicos.md)
 - [Arquitectura de Referencia]
 - **Diseño Detallado**
     - <details>
@@ -19,6 +19,6 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
         </ol>
       </details>
     - <details><summary>Vista Logica</summary>
-        1. Diagrama de Clases <br>
-        2. Modelo Entidad Relación
+        2. Diagrama de Clases <br>
+        3. Modelo Entidad Relación
       </details>
