@@ -11,6 +11,11 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
 - [Event Storming]
 - [Drivers Arquitectonicos]
 - [Arquitectura de Referencia]
-- [Diseño Detallado]
-    -[Vista Funcional](https://github.com/21JG/DocumentacionAgendVet/blob/main/Vista%20Funcional/Modelado-Dominio.md)
-    -[Vista Logica]
+- **Diseño Detallado**
+    - <details><summary>Vista Funcional</summary>
+        1. [Modelo de Dominio](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/tree/main/resources/vista-funcional)
+      </details>
+    - <details><summary>Vista Logica</summary>
+        1. Diagrama de Clases <br>
+        2. Modelo Entidad Relación
+      </details>
