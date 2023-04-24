@@ -13,9 +13,9 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
 - [Arquitectura de Referencia]
 - **Diseño Detallado**
     - <details><summary>Vista Funcional</summary>
-        1. [Modelo de Dominio](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/modelo-dominio.md)
+        - [Modelo de Dominio](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/modelo-dominio.md)
       </details>
     - <details><summary>Vista Logica</summary>
-        1. Diagrama de Clases <br>
-        2. Modelo Entidad Relación
+        - Diagrama de Clases <br>
+        - Modelo Entidad Relación
       </details>
