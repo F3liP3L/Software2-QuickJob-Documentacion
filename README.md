@@ -4,10 +4,10 @@ Repositorio que alberga toda la documentación pertinente del proyecto extra cla
 
 ## Contenido
 
-- [visión]
+- [visión]()
 - [Event Storming]
 - [Drivers Arquitectonicos]
 - [Arquitectura de Referencia]
 - [Diseño Detallado]
-  -[Vista Funcional]
-  -[Vista Logica]
+    -[Vista Funcional]
+    -[Vista Logica]
