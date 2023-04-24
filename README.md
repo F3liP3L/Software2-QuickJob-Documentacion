@@ -12,5 +12,5 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
 - [Drivers Arquitectonicos]
 - [Arquitectura de Referencia]
 - [Diseño Detallado]
-    -[Vista Funcional]
+    -[Vista Funcional](https://github.com/21JG/DocumentacionAgendVet/blob/main/Vista%20Funcional/Modelado-Dominio.md)
     -[Vista Logica]
