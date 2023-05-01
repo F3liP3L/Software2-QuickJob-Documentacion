@@ -6,6 +6,8 @@
 
 ## Funcionalidades Criticas
 
+![Funcionalidades Primarias](Funcionalidades-Primarias.png)
+
 ## Atributos de Calidad
 
 ![Mapa de Empatia](Mapa-Empatia.png)
