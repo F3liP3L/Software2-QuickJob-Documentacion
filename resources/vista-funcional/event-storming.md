@@ -2,6 +2,6 @@
 
 Eventos, Roles y Comandos modelados del proyecto.
 
-![Event Storming](Event_Storming.png)
+![Event Storming](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/assets/event-storming/Event_Storming.png)
 
-[Link Acceso Event Storming](https://drive.google.com/file/d/1DDlW6xcjCXkYF9QWFzUqKPDn6VK0yGvc/view?usp=share_link)
+[Link Acceso Event Storming]([https://drive.google.com/file/d/1DDlW6xcjCXkYF9QWFzUqKPDn6VK0yGvc/view?usp=share_link](https://app.diagrams.net/#G1DDlW6xcjCXkYF9QWFzUqKPDn6VK0yGvc)
