@@ -21,7 +21,7 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
     - <details>
         <summary>Vista Logica</summary>
         <ol>
-        <li><a href="https://github.com/F3liP3L/Software2-QuickJob-Documentacion/edit/main/resources/vista-procesos/diagrama-clases.md" target="_blank">Diagrama de Clases</a></li><br>
+        <li><a href="https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-procesos/diagrama-clases.md" target="_blank">Diagrama de Clases</a></li><br>
         <li><a href="" target="_blank" >Diagramas de Bases de Datos</a></li>
         </ol>
       </details>
