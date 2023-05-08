@@ -8,7 +8,7 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
 
 ## Contenido
 
-- [Event Storming]
+- [Event Storming](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/event-storming.md)
 - [Drivers Arquitectonicos](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/drivers-arquitectonicos/drivers-arquitectonicos.md)
 - [Arquitectura de Referencia]
 - **Diseño Detallado**
