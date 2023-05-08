@@ -22,6 +22,6 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
         <summary>Vista Logica</summary>
         <ol>
         <li><a href="https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/modelo-dominio.md" target="_blank">Diagrama de Clases</a></li><br>
-        <li><a href="" target="_blank" >Modelo Entidad Relación</a></li>
+        <li><a href="" target="_blank" >Diagramas de Bases de Datos</a></li>
         </ol>
       </details>
