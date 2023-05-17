@@ -28,6 +28,6 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
     - <details>
         <summary>Vista Desarrollo</summary>
           <ol>
-          <li><a href="" target="_blank">Diagrama de Componentes</a></li>
+          <li><a href="https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-desarrollo/diagrama-componentes.md" target="_blank">Diagrama de Componentes</a></li>
           </ol>
       </details>
