@@ -25,3 +25,9 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
         <li><a href="" target="_blank" >Diagramas de Bases de Datos</a></li>
         </ol>
       </details>
+    - <details>
+        <summary>Vista Desarrollo</summary>
+          <ol>
+          <li><a href="" target="_blank">Diagrama de Componentes</a></li>
+          </ol>
+      </details>
