@@ -2,7 +2,7 @@
 
 Diagrama que indica la organización de los diversos componentes de Quickjob, además de sus respectivas dependencias lógicas y artefactos a usar.
 
-![Diagrama de Componentes](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/assets/diseño-arquitectonico/Diagrama-De-Componentes.png)
+![Diagrama de Componentes](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/assets/vista-desarrollo/Diagrama-De-Componentes.png)
 
 ## Crosscutting
 

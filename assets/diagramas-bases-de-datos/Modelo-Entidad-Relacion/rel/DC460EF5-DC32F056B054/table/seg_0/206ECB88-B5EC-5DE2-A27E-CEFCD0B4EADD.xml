@@ -78,14 +78,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="9A074799-965A-B5A7-E3E7-FAFB0EA440B3" referredColumn="3732FD8C-52FE-17C2-F366-A6FBCCECCC9B"/>
 </associations>
 </Column>
-<Column name="doc_identificacion_codigo" id="225C337C-72E7-85EF-433F-BF162619A833">
+<Column name="persona_codigo" id="225C337C-72E7-85EF-433F-BF162619A833">
 <createdBy>Felipe</createdBy>
 <createdTime>2022-11-11 04:42:43 UTC</createdTime>
 <ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
@@ -93,7 +93,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
