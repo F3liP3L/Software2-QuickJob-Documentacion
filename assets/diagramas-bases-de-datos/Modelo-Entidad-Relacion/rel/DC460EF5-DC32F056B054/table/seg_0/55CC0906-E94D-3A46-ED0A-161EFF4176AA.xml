@@ -56,7 +56,7 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipo_subservicio_codigo" id="BC487B56-5244-41CD-B15B-0F5AB13BD394">
+<Column name="tipo_servicio_codigo" id="BC487B56-5244-41CD-B15B-0F5AB13BD394">
 <createdBy>Felipe</createdBy>
 <createdTime>2022-10-21 05:36:24 UTC</createdTime>
 <generatorID>F0C103D9-1AD6-FE0E-A453-712222A9829F</generatorID>
@@ -65,11 +65,26 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="20D49162-19A0-953D-7508-C7850299A39E" referredColumn="6A7A1D63-49B1-7C81-508A-C10933791E04"/>
+</associations>
+</Column>
+<Column name="prestador_servicios_codigo" id="4992B62E-8163-F89A-B682-396F6946D6BE">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 06:58:49 UTC</createdTime>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32CCD325-22DF-1B4A-CF52-BD5C56442EA4" referredColumn="3C3E713E-AAC3-75D6-1825-795F687F42DB"/>
 </associations>
 </Column>
 </columns>
@@ -86,7 +101,7 @@
 <colUsage columnID="7C4E442E-B865-E5FC-2592-5234ED20F63E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8C60B3A2-8637-286C-AE3C-4B853801B522" name="servicio_tipo_subservicio_FK">
+<ind_PK_UK id="8C60B3A2-8637-286C-AE3C-4B853801B522" name="servicio_tipo_servicio_FK">
 <createdBy>Felipe</createdBy>
 <createdTime>2022-10-21 05:36:24 UTC</createdTime>
 <generatorID>8F78F339-C008-4448-E8C8-ED50965D72BD</generatorID>
@@ -95,6 +110,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BC487B56-5244-41CD-B15B-0F5AB13BD394"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="092A6F39-A792-E86C-6364-203E61B7C40A" name="servicio_usuario_prestador_servicios_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 06:58:49 UTC</createdTime>
+<generatorID>63B71664-66CD-C0D6-474D-551F578D87ED</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4992B62E-8163-F89A-B682-396F6946D6BE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

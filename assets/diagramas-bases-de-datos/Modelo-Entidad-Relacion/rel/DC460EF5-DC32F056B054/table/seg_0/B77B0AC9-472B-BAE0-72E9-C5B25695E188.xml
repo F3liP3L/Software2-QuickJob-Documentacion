@@ -31,36 +31,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cliente_codigo" id="07A8B7AC-9056-579B-FA3F-6A0025A23A22">
+<Column name="servicio_por_usuario_codigo" id="5EFDAC79-98F1-5243-1A57-F00721C3F327">
 <createdBy>Felipe</createdBy>
-<createdTime>2022-10-21 05:36:24 UTC</createdTime>
-<generatorID>1309B5B4-D9C8-7C6C-D510-912CCAEFD830</generatorID>
+<createdTime>2023-05-19 07:01:48 UTC</createdTime>
 <ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="DC18924E-473A-AC3A-E8BC-397254B52604" referredColumn="029A5C72-E5C5-2F47-B956-15CC5E0A5AB8"/>
-</associations>
-</Column>
-<Column name="servicio_codigo" id="394171D3-64E9-E594-8674-28291EA8A692">
-<createdBy>Felipe</createdBy>
-<createdTime>2022-10-21 05:36:24 UTC</createdTime>
-<generatorID>6835A4B0-71D2-B95F-348F-2938F55B63C6</generatorID>
-<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F88AE3BC-049A-9AB2-E465-8DC316C115CB" referredColumn="7C4E442E-B865-E5FC-2592-5234ED20F63E"/>
+<colAssociation fkAssociation="B5D15395-952E-45C1-94CB-6C997FA85D50" referredColumn="1C7670E2-2C1A-1A07-1C77-725090EC75C8"/>
 </associations>
 </Column>
 </columns>
@@ -77,26 +60,14 @@
 <colUsage columnID="226DBC54-1FB3-398B-86F6-613D4AC39BEA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AAB49621-F4B9-B477-9452-3690F6995483" name="calificacion_servicio_FK">
+<ind_PK_UK id="BBD51832-506F-913C-B6EE-B9449C20E567" name="calificacion_servicio_por_usuario_FK">
 <createdBy>Felipe</createdBy>
-<createdTime>2022-10-21 05:36:24 UTC</createdTime>
-<generatorID>05C98A37-4ADC-0B35-2120-8AC4BF7524CC</generatorID>
+<createdTime>2023-05-19 07:01:48 UTC</createdTime>
 <ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="394171D3-64E9-E594-8674-28291EA8A692"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="43DAA5EC-64F8-7578-7973-E1A4856171EC" name="calificacion_cliente_FK">
-<createdBy>Felipe</createdBy>
-<createdTime>2022-10-21 05:36:24 UTC</createdTime>
-<generatorID>A629BAF9-8E77-F13E-4DD0-D4BA36206D39</generatorID>
-<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="07A8B7AC-9056-579B-FA3F-6A0025A23A22"/>
+<colUsage columnID="5EFDAC79-98F1-5243-1A57-F00721C3F327"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
