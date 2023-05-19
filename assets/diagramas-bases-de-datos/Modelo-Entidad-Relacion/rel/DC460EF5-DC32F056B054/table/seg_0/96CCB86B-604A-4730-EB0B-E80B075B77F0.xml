@@ -20,6 +20,18 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="sigla" id="AD3DA35C-9F32-FEBF-704F-EA7D542AD2B6">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 05:54:09 UTC</createdTime>
+<generatorID>DE5A6F81-8A87-7CFE-C3F4-F257F1AAFD61</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="nombre" id="8BB1E9AA-B0C5-CF92-F312-9F32296BB9B7">
 <createdBy>Felipe</createdBy>
 <createdTime>2022-10-21 05:36:24 UTC</createdTime>
@@ -30,30 +42,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="descripcion" id="8BADB6DC-E4F4-FB14-6459-1A1EF6547482">
-<createdBy>Felipe</createdBy>
-<createdTime>2022-10-21 05:36:24 UTC</createdTime>
-<generatorID>E1ED7945-C9D8-7744-9805-A55D8A6E3BA4</generatorID>
-<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="estado" id="23C39AB4-F2DD-0363-4F17-DBB5FDEC75BD">
-<createdBy>Felipe</createdBy>
-<createdTime>2022-10-21 05:36:24 UTC</createdTime>
-<generatorID>653E5613-D626-55F7-F1B8-62D96B6FABB0</generatorID>
-<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

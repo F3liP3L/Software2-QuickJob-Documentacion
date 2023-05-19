@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5901CC10-522F-CC2F-D699-4F90C7BC8883" name="documento_identificacion">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5901CC10-522F-CC2F-D699-4F90C7BC8883" name="persona">
 <createdBy>Felipe</createdBy>
 <createdTime>2022-10-21 05:36:24 UTC</createdTime>
 <generatorID>5A606EAC-2054-3635-A8E3-81AA0BDB3ACB</generatorID>
 <ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<ordsAlias>documento_identificacion</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -20,7 +21,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombre" id="CFC4DD06-5806-08DE-FADA-E9DFA62E50F8">
+<Column name="primer_nombre" id="CFC4DD06-5806-08DE-FADA-E9DFA62E50F8">
 <createdBy>Felipe</createdBy>
 <createdTime>2022-10-21 05:36:24 UTC</createdTime>
 <generatorID>2BB912A6-8B87-42EA-6D93-DA64EFD22C80</generatorID>
@@ -32,11 +33,37 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="apellido" id="100048AB-8CCF-3D77-D53D-9C3E5EE61C2D">
+<Column name="segundo_nombre" id="9052D510-69CD-9D17-D28A-11FDF3C4FF02">
 <createdBy>Felipe</createdBy>
-<createdTime>2022-10-21 05:36:24 UTC</createdTime>
-<generatorID>57FE5079-D6D0-53A3-DF4F-EE72C7782C94</generatorID>
+<createdTime>2023-05-19 05:11:56 UTC</createdTime>
+<generatorID>2BB912A6-8B87-42EA-6D93-DA64EFD22C80</generatorID>
 <ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="0845FA9D-2954-A922-F243-9BD55DB55E92">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 05:39:34 UTC</createdTime>
+<generatorID>2BB912A6-8B87-42EA-6D93-DA64EFD22C80</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="F1B8126E-A8BB-F302-48DA-AF7E455AB699">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 05:38:44 UTC</createdTime>
+<generatorID>2BB912A6-8B87-42EA-6D93-DA64EFD22C80</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -55,44 +82,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fecha_expedimiento" id="2A811C74-661B-DF46-C7E4-E64687CA4608">
-<createdBy>Felipe</createdBy>
-<createdTime>2022-10-21 05:36:24 UTC</createdTime>
-<generatorID>7B0B5E8B-A897-C89C-22B3-435F9D2FCB61</generatorID>
-<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="lugar_expedicion" id="AACFE443-3F4F-6C48-71CA-C53EEE312F17">
-<createdBy>Felipe</createdBy>
-<createdTime>2022-10-21 05:36:24 UTC</createdTime>
-<generatorID>BEAF3748-DFD1-C31A-9321-4D4FF5BE4541</generatorID>
-<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="sexo" id="6D1FD383-5C42-FA79-A4DE-4E17BCF37CBD">
-<createdBy>Felipe</createdBy>
-<createdTime>2022-10-21 05:36:24 UTC</createdTime>
-<generatorID>B703E6B1-2CCD-9845-C95C-17239B7EABB3</generatorID>
-<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="numero_identificacion" id="C8051B3C-3997-473A-E8DB-1B20270BCA90">
 <createdBy>Felipe</createdBy>
 <createdTime>2022-10-21 05:36:24 UTC</createdTime>
@@ -105,7 +94,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="lugar_nacimiento" id="B0F986C6-7936-E84E-2A6A-59F4ED7927B9">
+<Column name="ciudad_residencia_codigo" id="B0F986C6-7936-E84E-2A6A-59F4ED7927B9">
 <createdBy>Felipe</createdBy>
 <createdTime>2022-10-21 05:36:24 UTC</createdTime>
 <generatorID>98E2103F-ABE8-76D3-E9DD-2F910BF0D968</generatorID>
@@ -114,7 +103,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -129,7 +118,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -138,7 +127,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="516D1696-35E7-D6CE-44E0-82098ABB3028" name="documento_identificacion_PK">
+<ind_PK_UK id="516D1696-35E7-D6CE-44E0-82098ABB3028" name="persona_PK">
 <createdBy>Felipe</createdBy>
 <createdTime>2022-10-21 05:36:24 UTC</createdTime>
 <generatorID>E5AB4BD9-6A8B-A2D7-F871-5EAB65C53961</generatorID>
