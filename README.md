@@ -8,7 +8,6 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
 
 ## Contenido
 
-- [Event Storming](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/event-storming.md)
 - [Drivers Arquitectonicos](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/drivers-arquitectonicos/drivers-arquitectonicos.md)
 - [Arquitectura de Referencia]
 - **Diseño Detallado**
@@ -16,6 +15,7 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
         <summary>Vista Funcional</summary>
           <ol>
           <li><a href="https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/modelo-dominio.md" target="_blank">Modelo de Dominio</a></li>
+          <li><a href="https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/vista-funcional/event-storming.md" target="_blank">Event Storming</a></li>
           </ol>
       </details>
     - <details>
@@ -29,5 +29,11 @@ Para cualquier persona que quiera prestar un servicio que supla una necesidad ec
         <summary>Vista Desarrollo</summary>
           <ol>
           <li><a href="" target="_blank">Diagrama de Componentes</a></li>
+          </ol>
+      </details>
+    - <details>
+        <summary>Vista Dinamica</summary>
+          <ol>
+          <li><a href="" target="_blank">Diagrama de Casos de Uso</a></li>
           </ol>
       </details>
