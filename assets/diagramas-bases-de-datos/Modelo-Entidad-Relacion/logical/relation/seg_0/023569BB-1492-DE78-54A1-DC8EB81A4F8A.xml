@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="departamento_pais_FK" directorySegmentName="seg_0" id="023569BB-1492-DE78-54A1-DC8EB81A4F8A">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>75058E5E-0E0F-CE53-4022-958A7D870A9F</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<sourcePk>FB3A1904-EF49-3D2E-8C00-B90313D40AAB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68AF2E2D-EC87-4B9B-BB1B-E8272403A06F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A220A25-4B9A-FD2A-FD71-BD3ACB5AACBB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

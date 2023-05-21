@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33C8EB8C-0501-1C7A-6FF4-55800DC5F476" name="ciudad">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>52970160-3148-60FC-4C21-213F2D1BF5B1</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="D09C715C-532E-A31F-CAA7-4068A1A9A0C0">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>26F75971-6AA2-BEAD-31E0-4BC0B2D540DA</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4F7D895C-EB7F-20F6-9427-1293F3911170">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>3D4EE864-FAB7-9069-131E-6B8B38C8C06D</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="departamento_codigo" id="B692282B-7D66-63F4-4FEF-C85D7F3C6E09">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>2662BFCA-1036-E45B-7C13-3186C07286E1</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F07909FE-24CD-B84A-8343-DACC66D2201B" referredColumn="F53DA8D1-A494-7F6C-3D48-7462ABA76A3D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE2C4C9E-86FD-7222-DEF7-C24A8FF22E9A" name="ciudad_PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>2FB7E592-A06A-0D02-3B6F-76173B00F7EF</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D09C715C-532E-A31F-CAA7-4068A1A9A0C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7769C153-D74B-5B89-026E-000BDDEEA30C" name="ciudad_departamento_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>FDDCFF74-B4DB-F93D-1213-D8ACD66893B4</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B692282B-7D66-63F4-4FEF-C85D7F3C6E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

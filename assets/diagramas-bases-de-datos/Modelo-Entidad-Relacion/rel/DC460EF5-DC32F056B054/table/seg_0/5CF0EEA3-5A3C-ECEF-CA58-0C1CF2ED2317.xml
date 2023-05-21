@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CF0EEA3-5A3C-ECEF-CA58-0C1CF2ED2317" name="persona">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>4738BD2F-9958-C282-C926-BE3019024F10</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="C48611B4-F02A-2A06-E2F6-90F8619B062A">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>A1C04945-372D-5421-2DB8-C9AAAB824477</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_nombre" id="3AF0C450-34D6-04C7-0A4D-2B750920CE25">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>320AE94E-AD78-E481-7935-3DCC763B9F87</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="7E4CE3FE-E126-3EBA-DF8F-80E877AC33E5">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>5195D4F0-DE6D-0675-F6AF-CF379E06540A</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="8AF1A659-2C3B-AA89-1500-FBBAAB28CE61">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>F262425A-A18E-7447-1DDF-3B046D7347C2</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="C7034084-59DA-3D75-D7AB-80DD83AC7446">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>BAACA3EE-F745-72B8-0B45-314278DED2B7</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="23F5AD98-8345-EBE8-DFBD-0FCAE4085025">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>DCBA2E63-7E7D-E7D4-4384-5FB543CD7E0C</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_identificacion" id="6B53E4B2-DAA6-5D1C-F065-7C9274A19D24">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>12349B54-4043-D0C0-DC7A-0DD04838F805</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad_codigo" id="850D120B-1F4A-AFEE-70A3-781B0757BF73">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>F69382D5-E974-7CAC-89E7-34B27DE78209</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23509735-3F6E-E73D-CD7B-A4C1407EB9D0" referredColumn="D09C715C-532E-A31F-CAA7-4068A1A9A0C0"/>
+</associations>
+</Column>
+<Column name="tipo_identificacion_codigo" id="A511E097-DA7E-6956-E71F-363D57F491D8">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>FA1F1E49-F98A-84E8-4BF8-1037EF4497F6</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FA3CE29-B558-AB5F-88DD-D4A0412585A1" referredColumn="0C57BE41-46F9-427C-2444-CBB49A4EA482"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C500CC3-E58A-7CF4-778D-E92694CE9F03" name="persona_PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>A9DA334F-D4B1-704B-BA0F-7A0A87560C04</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C48611B4-F02A-2A06-E2F6-90F8619B062A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="913944CF-1B3E-67E9-4D1B-DF1BBBDB1F2C" name="persona_ciudad_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>24E1BAE9-0915-8199-47EF-618241C8EB45</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="850D120B-1F4A-AFEE-70A3-781B0757BF73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBFCEEAD-4577-5E87-50B3-FD1DAC1ACD9C" name="persona_tipo_identificacion_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>4A96ABAC-8D73-354C-9C51-20E4BD2F99F0</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A511E097-DA7E-6956-E71F-363D57F491D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4313EA7-148D-A6F2-F9F9-C3D7107F70FB" name="servicio">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>226BD483-F246-BB79-19C3-3BA67E1723B1</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="66B064D4-62BF-F40A-3F21-1B29827729A2">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>70B92D2A-1FD5-095E-9EFE-24655696D2FF</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D68F18BC-8F8B-2A09-AE05-8E371B67D472">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>0FB6A51D-C8A9-FB9F-D563-3CA952A9E214</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="13B36D71-D80C-2C60-2E3B-23FB7AF884E8">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>A4058961-1621-2FAD-04DD-B9FC370CFAFB</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="367DB254-2AED-9259-8D96-4B9E9D176327">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>689E83FC-607C-E59E-D85B-6CB757549C19</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_servicio_codigo" id="062E959F-A6E7-98DC-737A-BC5CFB17B6B6">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>517FF5B4-0921-F5D1-AFFD-23B079AB4100</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE904745-21BF-135F-A2E6-69AA6F887A50" referredColumn="686A99F2-A58D-5E8F-595C-9F3D79A2F992"/>
+</associations>
+</Column>
+<Column name="usuario_codigo" id="65107285-8588-DF9F-0A31-55E491E950E5">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>47D74C07-5EBC-5A59-5D30-D01C534A5B37</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4940C471-C102-5CD5-EC44-91E5B4ACF908" referredColumn="2905E24F-7098-8241-783C-4A8787F49148"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D0DD09A-2F7E-3AFE-9F88-396141E5B472" name="servicio_PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>E697907C-183B-2883-2BFB-DED67A7BE288</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66B064D4-62BF-F40A-3F21-1B29827729A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80ADF3FA-DF8B-1010-1BDB-F18EBDBCE010" name="servicio_tipo_servicio_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>023EFEE2-DAA5-C44A-73A0-64EC61A5DC47</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="062E959F-A6E7-98DC-737A-BC5CFB17B6B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45F580C0-902E-A1A0-A681-4DA687C0284F" name="servicio_usuario_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>52D92225-1736-217B-8DF6-E836ED6F8BEC</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65107285-8588-DF9F-0A31-55E491E950E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

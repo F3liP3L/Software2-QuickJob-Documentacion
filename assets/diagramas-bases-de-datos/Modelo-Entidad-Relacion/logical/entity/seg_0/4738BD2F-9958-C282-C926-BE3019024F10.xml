@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4738BD2F-9958-C282-C926-BE3019024F10" name="persona">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>5901CC10-522F-CC2F-D699-4F90C7BC8883</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="A1C04945-372D-5421-2DB8-C9AAAB824477">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>78667601-B32B-3D7D-BA58-6E98022762B3</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer nombre" id="320AE94E-AD78-E481-7935-3DCC763B9F87">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>CFC4DD06-5806-08DE-FADA-E9DFA62E50F8</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo nombre" id="5195D4F0-DE6D-0675-F6AF-CF379E06540A">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>9052D510-69CD-9D17-D28A-11FDF3C4FF02</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer apellido" id="F262425A-A18E-7447-1DDF-3B046D7347C2">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>0845FA9D-2954-A922-F243-9BD55DB55E92</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo apellido" id="BAACA3EE-F745-72B8-0B45-314278DED2B7">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>F1B8126E-A8BB-F302-48DA-AF7E455AB699</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha nacimiento" id="DCBA2E63-7E7D-E7D4-4384-5FB543CD7E0C">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>646AEEF6-052C-C1D3-9A0B-250189DA898A</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero identificacion" id="12349B54-4043-D0C0-DC7A-0DD04838F805">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>C8051B3C-3997-473A-E8DB-1B20270BCA90</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad residencia codigo" id="F69382D5-E974-7CAC-89E7-34B27DE78209">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>24E1BAE9-0915-8199-47EF-618241C8EB45</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<referedAttribute>26F75971-6AA2-BEAD-31E0-4BC0B2D540DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo identificacion codigo" id="FA1F1E49-F98A-84E8-4BF8-1037EF4497F6">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>4A96ABAC-8D73-354C-9C51-20E4BD2F99F0</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<referedAttribute>66F21366-1E5F-43FF-7393-249B200EACA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9DA334F-D4B1-704B-BA0F-7A0A87560C04" name="persona PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>516D1696-35E7-D6CE-44E0-82098ABB3028</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1C04945-372D-5421-2DB8-C9AAAB824477</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

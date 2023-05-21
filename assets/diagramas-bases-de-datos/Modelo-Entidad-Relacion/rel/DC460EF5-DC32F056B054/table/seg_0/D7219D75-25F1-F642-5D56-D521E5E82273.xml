@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7219D75-25F1-F642-5D56-D521E5E82273" name="usuario">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>8E43F007-58B0-D7DF-C064-5358FFE904C1</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="2905E24F-7098-8241-783C-4A8787F49148">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>4734DF6A-42BD-3232-CAA8-B7F3B13D618A</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="68BE8206-5502-0E0E-E4AE-B1274DAF030F">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>FE37B1B5-F543-2F3B-DA8C-64673285A745</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="57223EED-00FA-5AF0-3ACD-23C5F2E560E0">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>9919761B-3A2B-D80B-1AC5-0D27E8DEAC89</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="E645A0E9-C1F7-4D9B-A55B-66B0ADFD99C8">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>4780001E-4A9F-6D2A-AF5F-364035654322</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clave" id="5C625F2C-4498-10DA-9B5E-F3060281570A">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>672A8141-12F7-E58C-8F21-CE689A7F387D</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagen" id="893E13B8-ED80-1AC7-F5C3-F60778EB6241">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>99F813C8-D661-6DFC-0786-579254D73978</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="persona_codigo" id="D5F7DB24-F211-EE3A-DF64-7A66540820D2">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>4EF2D49C-4B48-6C76-D6A2-00A42BEB9258</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97E954EF-A566-E9A3-F2EE-EFE26B9624F7" referredColumn="C48611B4-F02A-2A06-E2F6-90F8619B062A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="242C7322-CEEF-97A7-2253-530EFED2657D" name="usuario_PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>D0859B82-C063-7D0E-7D14-1EA2B7F5909F</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2905E24F-7098-8241-783C-4A8787F49148"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30EF3914-3640-F826-33BD-CD0EF39BEB1B" name="usuario__IDX">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0C3E4A97-5236-4393-4387-B3CC4AF0A177</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D5F7DB24-F211-EE3A-DF64-7A66540820D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C11D7EC-FD3A-592A-04D4-A093595970F4" name="usuario_persona_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 21:01:22 UTC</createdTime>
+<generatorID>0C3E4A97-5236-4393-4387-B3CC4AF0A177</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5F7DB24-F211-EE3A-DF64-7A66540820D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

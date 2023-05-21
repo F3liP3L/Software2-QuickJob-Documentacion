@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0028BEC6-589F-2070-3790-FEE36A3E53D4" name="tipo identificacion">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>96CCB86B-604A-4730-EB0B-E80B075B77F0</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="66F21366-1E5F-43FF-7393-249B200EACA3">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>876885A7-5E4F-28C5-9684-82DEDD0050A0</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sigla" id="B95B5099-8174-26D8-B07F-23D25E147430">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>AD3DA35C-9F32-FEBF-704F-EA7D542AD2B6</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="745B13DD-E504-4085-D44A-C58E04DD2E21">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>8BB1E9AA-B0C5-CF92-F312-9F32296BB9B7</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CA7BAE2-9468-912C-3997-50258B103306" name="tipo identificacion PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>606508EA-934B-C865-CEB2-CB52169A019E</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66F21366-1E5F-43FF-7393-249B200EACA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

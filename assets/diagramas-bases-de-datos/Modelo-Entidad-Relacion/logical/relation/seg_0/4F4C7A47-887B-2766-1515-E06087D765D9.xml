@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tiposervicio" directorySegmentName="seg_0" id="4F4C7A47-887B-2766-1515-E06087D765D9">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-21 20:58:33 UTC</createdTime>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<targetPk>32C08C10-E85E-2A6B-DB6F-729F3A282621</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>33190D63-0BAB-55A1-DA2B-FE16D6E37EAC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>33190D63-0BAB-55A1-DA2B-FE16D6E37EAC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

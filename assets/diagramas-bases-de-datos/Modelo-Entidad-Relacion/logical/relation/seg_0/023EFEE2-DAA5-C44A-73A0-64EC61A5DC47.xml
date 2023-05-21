@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="servicio_tipo_servicio_FK" directorySegmentName="seg_0" id="023EFEE2-DAA5-C44A-73A0-64EC61A5DC47">
+<createdBy>Felipe</createdBy>
+<createdTime>2023-05-19 07:28:26 UTC</createdTime>
+<generatorID>20D49162-19A0-953D-7508-C7850299A39E</generatorID>
+<ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
+<engineerTo>
+<item key="DC460EF5-33F6-B573-874E-DC32F056B054" value="true"/>
+</engineerTo>
+<sourcePk>32C08C10-E85E-2A6B-DB6F-729F3A282621</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>33190D63-0BAB-55A1-DA2B-FE16D6E37EAC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>226BD483-F246-BB79-19C3-3BA67E1723B1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
