@@ -31,7 +31,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="servicio_por__usuario_codigo" id="AC0BE2F3-2AC3-B9DC-56A6-EF48FC66F780">
+<Column name="servicio_usuario_codigo" id="AC0BE2F3-2AC3-B9DC-56A6-EF48FC66F780">
 <createdBy>Felipe</createdBy>
 <createdTime>2023-05-21 21:01:22 UTC</createdTime>
 <generatorID>5116522A-524C-D45C-1325-B15C9F208439</generatorID>
@@ -61,7 +61,7 @@
 <colUsage columnID="8A69E860-71AF-DFBE-23F8-63BCD4287CA4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1AEE3FB7-67DD-8B8B-5B54-83B7A98AB97C" name="calificacion_servicio_por__usuario_FK">
+<ind_PK_UK id="1AEE3FB7-67DD-8B8B-5B54-83B7A98AB97C" name="calificacion_servicio_usuario_FK">
 <createdBy>Felipe</createdBy>
 <createdTime>2023-05-21 21:01:22 UTC</createdTime>
 <generatorID>DD31AE57-D227-5BD7-AC03-F4985FDDA229</generatorID>

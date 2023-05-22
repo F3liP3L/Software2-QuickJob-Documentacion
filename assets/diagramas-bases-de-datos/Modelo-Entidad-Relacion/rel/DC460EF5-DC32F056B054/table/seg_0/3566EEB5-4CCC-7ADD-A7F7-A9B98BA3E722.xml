@@ -54,7 +54,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9E0A8D10-06F7-61B8-5C8B-10840709A33E" name="servicio_por__usuario_PK">
+<ind_PK_UK id="9E0A8D10-06F7-61B8-5C8B-10840709A33E" name="servicio_por_usuario_PK">
 <createdBy>Felipe</createdBy>
 <createdTime>2023-05-21 21:01:22 UTC</createdTime>
 <generatorID>B4217DDF-3AF0-70A8-24E7-A5747167FD10</generatorID>
@@ -66,7 +66,7 @@
 <colUsage columnID="C622FDB6-FC5C-4370-2E31-D2F255453D27"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8E25F228-2BD7-F012-C64F-BE9CA5192E15" name="servicio_por__usuario_usuario_FK">
+<ind_PK_UK id="8E25F228-2BD7-F012-C64F-BE9CA5192E15" name="servicio_por_usuario_usuario_FK">
 <createdBy>Felipe</createdBy>
 <createdTime>2023-05-21 21:01:22 UTC</createdTime>
 <generatorID>D2E80FBF-88F2-37F0-9DAA-B737448DD2FF</generatorID>
@@ -77,7 +77,7 @@
 <colUsage columnID="C3BDF6F2-E24D-69B2-E0DB-B3205157A9A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9CC50254-DA88-87F2-0EFE-0AEC06AB6564" name="servicio_por__usuario_servicio_FK">
+<ind_PK_UK id="9CC50254-DA88-87F2-0EFE-0AEC06AB6564" name="servicio_por_usuario_servicio_FK">
 <createdBy>Felipe</createdBy>
 <createdTime>2023-05-21 21:01:22 UTC</createdTime>
 <generatorID>2C2CD433-09E6-2269-CFFF-E94D0D48E11B</generatorID>
