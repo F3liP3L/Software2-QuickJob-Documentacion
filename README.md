@@ -4,8 +4,7 @@ Repositorio que alberga toda la documentación pertinente del proyecto extra cla
 
 ## Contenido
 
-- [Drivers Arquitectonicos](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/drivers-arquitectonicos/drivers-arquitectonicos.md)
-- [Arquitectura de Referencia]
+- [Drivers Arquitectonicos](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/resources/drivers-arquitectonicos/drivers-arquitectonicos.md)[Arquitectura de referencia]
 - **1. Diseño**
     - <details>
         <summary>Vista Funcional</summary>
