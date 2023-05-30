@@ -1,4 +1,6 @@
-# Modelo de Dominio
+# 1.2.1.2.1 Modelo de Dominio Anemico
+
+El diagrama tiene como fin presentar los objetos que hacen parte del dominio, sus tipos de relaciones con sus cardinalidades y brindar un detalle general de las relaciones entre ellos.
 
 ## Objetos del Dominio
 
@@ -10,7 +12,4 @@
 ![modelo-anemico](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/assets/Modelo-Dominio/DDD_Modelo_Anemico.jpg)
 
 
-## Modelo Enriquecido
-
-[Link Acceso Modelo Enriquecido](https://docs.google.com/spreadsheets/d/1QRABxAhmWDF9EMpIfl0LtSXn59hY4EU5/edit?usp=share_link&ouid=109964381935978625779&rtpof=true&sd=true)
 
