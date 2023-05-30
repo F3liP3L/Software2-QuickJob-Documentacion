@@ -1,6 +1,0 @@
-
- ## 1.1.2 Restricciones-del-diseño
-    - 1.1 [Atributos-de-calidad](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/tree/main/Desing-high-level/Restricciones-del-dise%C3%B1o/Atributos-de-calidad)
-    - 1.2 [Funcionalidades-criticas](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/tree/main/Desing-high-level/Restricciones-del-dise%C3%B1o/Funcionalidades-criticas)
-    - 1.3 [Restricciones-de-negocio](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/tree/main/Desing-high-level/Restricciones-del-dise%C3%B1o/Restricciones-de-negocio)
-    - 1.4 [Restricciones-tecnicas](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/tree/main/Desing-high-level/Restricciones-del-dise%C3%B1o/Restricciones-tecnicas)

@@ -1,3 +1,0 @@
-# Atributos de Calidad
-
-## 
