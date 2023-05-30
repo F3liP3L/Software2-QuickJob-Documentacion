@@ -4,4 +4,31 @@ Este modelo se realizo con el fin de mostrar mayor detalle los objetos del domin
 
 ## Objetos del dominio detalle
 
+### Pais
+
+### Departamento
+
+### Ciudad
+
+### Usuario
+
+### Tipo de Identificacion
+
+### Persona
+
+### Servicio
+
+### Tipo de Servicio
+
+### Servicio Por Usuario
+
+### Comentario
+
+### Calificacion
+
+### Conversacion
+
+### Mensaje
+
+
 [Link Acceso Modelo Enriquecido](https://docs.google.com/spreadsheets/d/1QRABxAhmWDF9EMpIfl0LtSXn59hY4EU5/edit?usp=share_link&ouid=109964381935978625779&rtpof=true&sd=true)
