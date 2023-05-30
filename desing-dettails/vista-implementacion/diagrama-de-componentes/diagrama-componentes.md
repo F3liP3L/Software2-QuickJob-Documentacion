@@ -1,4 +1,4 @@
-# Diagrama de Componentes
+# 1.2.3.1 Diagrama de Componentes
 
 Diagrama que indica la organización de los diversos componentes de Quickjob, además de sus respectivas dependencias lógicas y artefactos a usar.
 Este diagrama cuenta con 7 capas, cada una encargada de su propia responsabilidad.

@@ -4,7 +4,7 @@ El diagrama tiene como fin presentar los objetos que hacen parte del dominio, su
 
 ## Objetos del Dominio
 
-![objetos-del-dominio](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/assets/Modelo-Dominio/DDD_Modelo_Enriquecido.jpg)
+![objetos-del-dominio](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/assets/modelo-dominio/objetos-dominio.png)
 
 
 ## Modelo Anemico
