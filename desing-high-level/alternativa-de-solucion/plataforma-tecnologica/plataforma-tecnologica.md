@@ -2,7 +2,7 @@
 
 ### Front End
 
-Para el frontend del aplicativo se utilizara la libreria de Javascript React.
+Para el frontend del aplicativo se utilizara la libreria de Javascript **React**.
 
 ### Back End
 
@@ -11,6 +11,7 @@ Para el backend de los microservicios, se opto por usar el lenguaje Java version
 ### Contenedor
 
 Para los contenedores se utilizara docker.
+
 ### Manejador de Contenedores
 
 Como gestor de contenedores se piensa usar Kubernetes, debido a su gran avanico de herramientas y compatibilidad, pero principalmente por su facilidad para administrador los contenedores y escalar horizontalmente, escalando segun la demanda de la aplicación.
@@ -45,5 +46,7 @@ Para validar que la identidad de una persona si corresponde con la que se ingres
 
 
 ### Identify Provider
+
+Como provedor de identidades
 
 

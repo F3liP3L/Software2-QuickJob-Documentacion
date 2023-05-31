@@ -20,17 +20,16 @@ Debido a la escalabilidad, eficiencia de recursos, seguridad, velocidad de respu
 Como gestor de contenedores se piensa usar Kubernetes, debido a su 
 ### Bases de datos SQL
 
-Para la bases de datos relacionales se piensa usar MYSQL por su velocidad en las operaciones y el rendimiento que tiene en las aplicaciones web; además de por su consistencia y disponibilidad que tiene como base de datos relacional.
-
+Dentro de los microservicios de la aplicación se usaran bases de datos relacionales, con el fin de evitar la duplicidad de los registros y la integridad de ellos. Además esta base de datos SQL se utilizara para guardar datos que necesiten estar estructurados solidamente.
 
 ### Base de datos NO-SQL
 
-Para las bases de datos no Relacionales se piensa hacer uso de MongoDB
+Dentro de la aplicación va ser necesario hacer de bases de datos NO-SQL, debido a los grandes volumenes de datos que puede llegar a manejar un microservicio determinado. Tambien resultaria necesario usar estas bases de datos para suplir necesidad relacionadas con el rendimiento. 
 
 
 ### Blob Storage
 
-
+Se utilizara un Blob Storage con el fin de almacenar en la nube todo el contenido estatico, Front End de la aplicación.
 ### CDN
 
 
@@ -45,8 +44,7 @@ Este componente resulta extremedamente necesario puesto que la aplicación envia
 
 ### Api Validacion de Documento de identificación
 
-
-
+Este componente es de los más cruciales en la aplicación, puesto que sera necesario para validar que la identidad del usuario realmente corresponde a la ingresada.
 
 ### Identify Provider
 
