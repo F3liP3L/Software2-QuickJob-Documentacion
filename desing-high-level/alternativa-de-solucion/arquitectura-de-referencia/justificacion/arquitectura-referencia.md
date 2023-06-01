@@ -50,7 +50,7 @@ Este componente resulta extremedamente necesario puesto que la aplicación envia
 
 Este componente es de los más cruciales en la aplicación, puesto que sera necesario para validar que la identidad del usuario realmente corresponde a la ingresada y por lo tanto permitir solo un registro unico y veridico.
 
-### Api Fingerprint Device
+### Api Validación de dispositivo
 
 Este componente desempeña un papel fundamental en la verificación de que un usuario está accediendo a una aplicación desde el mismo dispositivo en el que se registró por primera vez. Su objetivo principal es fortalecer la seguridad y la autorización de la aplicación, al proporcionar una capa adicional de protección contra accesos no autorizados o suplantación de identidad.
 
