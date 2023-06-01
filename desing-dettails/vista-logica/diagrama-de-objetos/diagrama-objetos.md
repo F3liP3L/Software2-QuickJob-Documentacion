@@ -4,4 +4,4 @@ El objetivo de construir este diagrama de objetos es para analizar en profundida
 
 ## Diagrama de Objetos de Transacción Cambiar Estado de un Servicio
 
-![do-cambiar-estado-servicio]()
+![do-cambiar-estado-servicio](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/assets/diagrama-objetos/Diagrama-de-Objetos.png)
