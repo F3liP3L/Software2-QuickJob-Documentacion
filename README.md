@@ -1,4 +1,4 @@
-# Software2-QuickJob-Documentacion
+# Software2-QuickJob-Documentación
 
 Repositorio que alberga toda la documentación pertinente del proyecto extra clase trabajado en el curso de software 2.
 
