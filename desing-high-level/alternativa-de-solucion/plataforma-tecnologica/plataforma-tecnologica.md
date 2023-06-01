@@ -10,7 +10,7 @@ Para el backend de los microservicios, se opto por usar el lenguaje Java version
 
 ### Contenedor
 
-Para los contenedores se utilizara docker.
+Para los contenedores se utilizara docker. Herramienta que se integra muy bien con kub
 
 ### Manejador de Contenedores
 
@@ -18,30 +18,32 @@ Como gestor de contenedores se piensa usar Kubernetes, debido a su gran avanico 
 
 ### Bases de datos SQL
 
-Para la bases de datos relacionales se piensa usar **MYSQL** por su velocidad en las operaciones y el rendimiento que tiene en las aplicaciones web; además de por su consistencia y disponibilidad que tiene como base de datos relacional.
-
+Para la bases de datos relacionales se piensa usar **MaridaDB** por su velocidad en las operaciones y el rendimiento que posee inclusive mayor a comparación de bases de datos con mucho perfomance como MySQL y SQL Server. Otra de las razones por la cual se piensa usar es por su consistencia y disponibilidad que tiene como base de datos relacional.
 
 ### Base de datos NO-SQL
 
-Para las bases de datos no Relacionales se piensa hacer uso de **MongoDB** debido su facilidad de us
+Para las bases de datos no Relacionales se piensa hacer uso de **MongoDB** debido su facilidad de usO
 
 
 ### Blob Storage
 
-Como Blob Storage se hara uso de Azure Blob Storage
-
+Como Blob Storage se hara uso de **Azure Blob Storage**
 
 ### CDN
 
+Como CDN se hara uso del **Azure CDN**
 
 ### WAF
 
+Como WAF se hara uso de **Azure WAF**
 
 ### Api-Gateway
 
+Como Api-Gateway se hara uso de **Azure Managament Gateway**
+
 ### Api Notificación
 
-Para las notificaciones se utilizara **OneSignal** debido a que se puede usar tanto para el envio de notificaciones push como para el envio de correos electronicos.
+Para las notificaciones se utilizara **OneSignal** debido a que funciona tanto para el envio de notificaciones push como para el envio de correos electronicos y ofrece precios muy similares con su competencia especializada en solo uno de los dos servicios.
 
 ### Api Validacion de Documento de identificación
 
