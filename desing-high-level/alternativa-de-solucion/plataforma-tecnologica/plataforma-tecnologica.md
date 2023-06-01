@@ -15,6 +15,7 @@ Para los contenedores se utilizara docker.
 ### Manejador de Contenedores
 
 Como gestor de contenedores se piensa usar Kubernetes, debido a su gran avanico de herramientas y compatibilidad, pero principalmente por su facilidad para administrador los contenedores y escalar horizontalmente, escalando segun la demanda de la aplicación.
+
 ### Bases de datos SQL
 
 Para la bases de datos relacionales se piensa usar **MYSQL** por su velocidad en las operaciones y el rendimiento que tiene en las aplicaciones web; además de por su consistencia y disponibilidad que tiene como base de datos relacional.
@@ -22,10 +23,12 @@ Para la bases de datos relacionales se piensa usar **MYSQL** por su velocidad en
 
 ### Base de datos NO-SQL
 
-Para las bases de datos no Relacionales se piensa hacer uso de MongoDB
+Para las bases de datos no Relacionales se piensa hacer uso de **MongoDB** debido su facilidad de us
 
 
 ### Blob Storage
+
+Como Blob Storage se hara uso de Azure Blob Storage
 
 
 ### CDN
@@ -47,6 +50,7 @@ Para validar que la identidad de una persona si corresponde con la que se ingres
 
 ### Identify Provider
 
-Como provedor de identidades
+Como provedor de identidades se hara uso de **Auth0** debido a sus herramientas, facilidad de uso y seguridad que brinda, además de aprovechar su capacidad para implementar MFA, atributo que resultara necesario para suplir escenarios de calidad relacionados con seguridad encontrados en los drivers arquitectonicos.
+
 
 
