@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F62CB397-7B88-4456-9A6D-32C1D7CD8C25" name="departamento">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B306C488-1731-B20D-EB61-B5EA1C7D369B" name="ciudad">
 <createdBy>Felipe</createdBy>
-<createdTime>2023-05-21 21:01:22 UTC</createdTime>
-<generatorID>7A220A25-4B9A-FD2A-FD71-BD3ACB5AACBB</generatorID>
+<createdTime>2023-06-01 20:56:20 UTC</createdTime>
+<generatorID>52970160-3148-60FC-4C21-213F2D1BF5B1</generatorID>
 <ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="codigo" id="F53DA8D1-A494-7F6C-3D48-7462ABA76A3D">
+<Column name="codigo" id="B7F03209-24F4-800A-0908-BF8AC28E111D">
 <createdBy>Felipe</createdBy>
-<createdTime>2023-05-21 21:01:22 UTC</createdTime>
-<generatorID>372C09FF-266E-60C7-54ED-BFDC200E3AB0</generatorID>
+<createdTime>2023-06-01 20:56:20 UTC</createdTime>
+<generatorID>26F75971-6AA2-BEAD-31E0-4BC0B2D540DA</generatorID>
 <ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,10 +20,10 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombre" id="9FA22F20-1146-230D-353C-DAA0A39BDB3D">
+<Column name="nombre" id="8A25AF8E-8C1A-39DF-75FA-4596DEA63D45">
 <createdBy>Felipe</createdBy>
-<createdTime>2023-05-21 21:01:22 UTC</createdTime>
-<generatorID>82D04128-3969-DBD6-5B81-FD73ADDAC0AD</generatorID>
+<createdTime>2023-06-01 20:56:20 UTC</createdTime>
+<generatorID>3D4EE864-FAB7-9069-131E-6B8B38C8C06D</generatorID>
 <ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,10 +32,10 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="pais_codigo" id="B4A7EEB6-B682-06AD-F16C-36A634FF8D1C">
+<Column name="departamento_codigo" id="012DB41C-C76B-9961-6872-A565B096AA01">
 <createdBy>Felipe</createdBy>
-<createdTime>2023-05-21 21:01:22 UTC</createdTime>
-<generatorID>633C1F84-EADC-730E-2D7E-4E5C166461B2</generatorID>
+<createdTime>2023-06-01 20:56:20 UTC</createdTime>
+<generatorID>2662BFCA-1036-E45B-7C13-3186C07286E1</generatorID>
 <ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,32 +45,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E179577A-C367-E025-7DB4-56CD3257D893" referredColumn="9B1821D0-B0EB-5323-C977-FCFB8C8116E2"/>
+<colAssociation fkAssociation="05BD9DD2-7282-7E72-DEBB-AAA0B0ADB623" referredColumn="6959489F-F837-FF5E-C1E4-FB0338B35FB6"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="99F6C538-9E8C-9821-7956-9854AEE4882F" name="departamento_PK">
+<ind_PK_UK id="AF91C284-A703-2A5B-DACC-D9869DAE78BE" name="ciudad_PK">
 <createdBy>Felipe</createdBy>
-<createdTime>2023-05-21 21:01:22 UTC</createdTime>
-<generatorID>66EF74B6-0AEC-B862-2237-4CC0F7D9D03B</generatorID>
+<createdTime>2023-06-01 20:56:20 UTC</createdTime>
+<generatorID>2FB7E592-A06A-0D02-3B6F-76173B00F7EF</generatorID>
 <ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F53DA8D1-A494-7F6C-3D48-7462ABA76A3D"/>
+<colUsage columnID="B7F03209-24F4-800A-0908-BF8AC28E111D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3AEBFD6B-32DA-BCF9-F78B-48C52B655C2C" name="departamento_pais_FK">
+<ind_PK_UK id="389D1EFB-7E8E-717A-23B6-D30686F9F69D" name="ciudad_departamento_FK">
 <createdBy>Felipe</createdBy>
-<createdTime>2023-05-21 21:01:22 UTC</createdTime>
-<generatorID>023569BB-1492-DE78-54A1-DC8EB81A4F8A</generatorID>
+<createdTime>2023-06-01 20:56:20 UTC</createdTime>
+<generatorID>FDDCFF74-B4DB-F93D-1213-D8ACD66893B4</generatorID>
 <ownerDesignName>Modelo-Entidad-Relacion</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B4A7EEB6-B682-06AD-F16C-36A634FF8D1C"/>
+<colUsage columnID="012DB41C-C76B-9961-6872-A565B096AA01"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
