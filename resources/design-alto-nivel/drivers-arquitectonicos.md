@@ -1,9 +1,5 @@
 # Drivers Arquitectonicos
 
-## Funcionalidades Criticas
-
-![Funcionalidades Primarias](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/assets/drivers-arquitectonicos/Funcionalidades-Primarias.png)
-
 ## Atributos de Calidad
 
 ### Mapa de Empatia
