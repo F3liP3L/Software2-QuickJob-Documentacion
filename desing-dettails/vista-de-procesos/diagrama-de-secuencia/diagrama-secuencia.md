@@ -1,5 +1,5 @@
 # 1.2.4.1 Diagrama de Secuencia
-El objetivo por el cual se creo este diagrama de secuencia es mostrar el orden y la forma en que un conjunto específico de componentes interactúa para llevar a cabo una transacción o caso de uso en particular; proporcionando un nivel de detalle adicional sobre cómo los componentes y objetos de la aplicación interactúan entre sí para completar un proceso.Estas son las diferentes secuencias de las transacciones que se realizan en el aplicativo.
+El objetivo por el cual se creo este diagrama de secuencia es mostrar el orden y la forma en que un conjunto específico de componentes interactúa para llevar a cabo una transacción o caso de uso en particular; proporcionando un nivel de detalle adicional sobre cómo los componentes y objetos de la aplicación interactúan entre sí para completar un proceso. Estas son las diferentes secuencias de las transacciones que se realizan en el aplicativo.
 
 ## Secuencia de una transacción de actualización POST/PUT/DELETE
 
