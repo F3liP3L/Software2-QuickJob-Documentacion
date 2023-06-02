@@ -1,6 +1,6 @@
 # 1.2.4.2 Diagrama de Colaboración
 
-El diagrama de colaboración sirve para dar un vistazo general de la comunicación existente entre los dos objetos dentro de una determinada transacción. Estas son las secuencias que realizan en conjunto los componentes en las diferentes transacciones del aplicativo.
+El diagrama de colaboración sirve para dar un vistazo general de la comunicación existente entre todos los objetos dentro de una determinada transacción. Estas son las secuencias que realizan en conjunto los componentes en las diferentes transacciones del aplicativo.
 
 ## Colaboración de una transacción de actualización POST/PUT/DELETE
 
