@@ -10,7 +10,6 @@ El diagrama tiene como fin presentar los objetos que hacen parte del dominio, su
 
 ## Modelo Anemico
 
-![modelo-anemico](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/assets/Modelo-Dominio/DDD_Modelo_Anemico.jpg)
-
+![modelo-anemico](https://github.com/F3liP3L/Software2-QuickJob-Documentacion/blob/main/assets/modelo-dominio/DDD_Modelo_Anemico.jpg)
 
 
